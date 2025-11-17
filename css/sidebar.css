@@ -1,0 +1,131 @@
+/* .sidebar {
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    width: 72px;
+    z-index:200;
+}
+
+.sidebar-link {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.sidebar-link:hover {
+    background-color: rgb(220, 219, 219);
+}
+.sidebar-link img {
+    height: 24px;
+    margin-bottom: 6px;
+}
+
+.sidebar-link div {
+    font-size: 10px;
+} */
+/* 
+@media (min-width:1200px) {
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        width: 150px;
+
+
+    }
+
+    .sidebar-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        flex-direction: row;
+        width: 140px;
+        height: 60px;
+        margin-bottom: -25px;
+    }
+    .sidebar-link:hover {
+        
+    }
+    .sidebar-link div {
+        text-align: left;
+        margin-top: -5px;
+        font-size: 11px;
+    }
+} */
+ @media (max-width: 1200px) {
+  .sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 72px;
+    z-index: 200;
+    padding-top: 5px;
+  }
+
+  .sidebar-link {
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  .sidebar-link:hover {
+    background-color: rgb(235, 235, 235);
+  }
+
+  .sidebar-link img {
+    height: 24px;
+    margin-bottom: 4px;
+  }
+
+  .sidebar-link div {
+    font-family: Roboto, Arial;
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1200.1px) {
+  .sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 240px;
+    z-index: 200;
+    padding-top: 13px;
+  }
+
+  .sidebar-link {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px 24px;
+  }
+
+  .sidebar-link:hover {
+    background-color: rgb(235, 235, 235);
+  }
+
+  .sidebar-link img {
+    height: 24px;
+    margin-right: 24px;
+  }
+
+  .sidebar-link div {
+    font-family: Roboto, Arial;
+    font-size: 14px;
+  }
+}
